@@ -1,0 +1,15 @@
+# Import dataclass
+from dataclasses import dataclass
+
+@dataclass
+class WeightEntry:
+    # Define the fields on the class
+    ____: str
+    ____: int
+    ____: int
+    ____: str
+        
+    # Define a property that returns the body_mass / flipper_length
+    @property
+    def mass_to_flipper_length_ratio(self):
+        return ____.body_mass / ____.____
